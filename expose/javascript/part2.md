@@ -16,7 +16,7 @@
   D. student['Favorite Teacher'].name;
   E. student.courseLoad[0];
 13.
-  A. "32" - The + symbol converted the result to a string
+  "32" - The + symbol converted the result to a string
   B. 1 - The - symbol resulted in a number conversion **CHECK**
   C. 3 - The result is an integer since 3 is not a string
   D. "3null" - 3 is a string and the + symbol converted the result to a string
