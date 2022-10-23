@@ -33,4 +33,5 @@
   F. true - 2 is boolean converted to true and true === true
 15. === checks the strict equality of types without any conversion being performed, whereas == can check equality between two different types and perform conversion.
 16. [Here is the code](part2-question16.js)
+17. The result is newArr: [2, 4, 6]. The doSomething function is passed in as a parameter to the modifyArray function, where the input array's elements are iterated and modified by calling the modifyArray function on each element. These modified elements (multiplied by 2) are pushed into the new array.
   
