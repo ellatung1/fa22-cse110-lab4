@@ -17,7 +17,7 @@
   E. student.courseLoad[0];
 13.
   "32" - The + symbol converted the result to a string
-  B. 1 - The - symbol resulted in a number conversion **CHECK**
+  B. 1 - The - symbol resulted in a number conversion
   C. 3 - The result is an integer since 3 is not a string
   D. "3null" - 3 is a string and the + symbol converted the result to a string
   E. 4 - true is mapped to the number 1
@@ -34,4 +34,6 @@
 15. === checks the strict equality of types without any conversion being performed, whereas == can check equality between two different types and perform conversion.
 16. [Here is the code](part2-question16.js)
 17. The result is newArr: [2, 4, 6]. The doSomething function is passed in as a parameter to the modifyArray function, where the input array's elements are iterated and modified by calling the modifyArray function on each element. These modified elements (multiplied by 2) are pushed into the new array.
+18. [Here is the code](part2-question18.js)
+19. 1 3 2
   
