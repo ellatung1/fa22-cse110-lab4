@@ -10,11 +10,11 @@
 10. 3 is printed because the variable length has scope within the function with the const declaration. This value is unchanged.
 11. This function returns the array discounted which contains all the prices with the discounts applied to them. To be specific: [50,100,150]. This variable has scope within the function.
 12.
-  A. student.name;
-  B. student['Grad Year'];
-  C. student.greeting();
-  D. student['Favorite Teacher'].name;
-  E. student.courseLoad[0];
+student.name;
+student['Grad Year'];
+student.greeting();
+student['Favorite Teacher'].name;
+student.courseLoad[0];
 13.
   "32" - The + symbol converted the result to a string
   B. 1 - The - symbol resulted in a number conversion
